@@ -1,0 +1,49 @@
+nav {
+    background-color: #333;
+    /* background-color: white; */
+    /* color:white; */
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-weight: bold;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  .menu-items {
+    display: flex;
+  }
+  
+  .menu-items ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: pink;
+  }
+  
+  .menu-items li {
+    margin-left: 20px;
+    color: white;
+  }
+  
+  .menu-items li:first-child {
+    margin-left: 0;
+  }
+  
